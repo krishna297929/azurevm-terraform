@@ -53,7 +53,7 @@ variable "admin_username" {
 
 variable "admin_password" {
   description = "The admin password to be used on the VMSS that will be deployed. The password must meet the complexity requirements of Azure"
-  default     = "3YMq@wrYyg37#azure"
+  default     = "admin_password"
 }
 
 variable "nb_instances" {
