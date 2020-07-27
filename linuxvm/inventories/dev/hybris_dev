@@ -1,0 +1,66 @@
+[hybris-pcm]
+#uw1vmtestkomal-10.251.172.90 ansible_host=10.251.172.90 ansible_port=22 ansible_connection=ssh ansible_user=azureadmin ansible_ssh_private_key_file=~/.ssh/azureadmin
+#10.248.142.7 ansible_host=10.248.142.7 ansible_port=22 ansible_connection=ssh ansible_user=azureadmin ansible_ssh_private_key_file=~/.ssh/azureadmin
+
+#uw1vmpaap005d-10.251.172.30 ansible_host=10.251.172.30 ansible_port=22 ansible_connection=ssh ansible_user=azureadmin ansible_ssh_private_key_file=~/.ssh/azureadmin
+#sa1vmpaap003s-10.248.140.25  ansible_host=10.248.140.25 ansible_port=22 ansible_connection=ssh ansible_user=azureadmin ansible_become=true ansible_ssh_private_key_file=~/.ssh/azureadmin
+
+#remote ansible_host=10.251.172.90 ansible_port=22 ansible_connection=ssh ansible_user=azureadmin ansible_ssh_private_key_file=/root/.ssh/authorized_keys
+
+
+#uw1vmmsws001u-10.251.149.31 ansible_host=10.251.149.31 ansible_port=22 ansible_connection=ssh ansible_user=azureadmin ansible_ssh_private_key_file=~/.ssh/azureadmin
+
+
+#uw1vmmsws001q-10.251.164.44 ansible_host=10.251.164.44 ansible_port=22 ansible_connection=ssh ansible_user=azureadmin ansible_ssh_private_key_file=~/.ssh/azureadmin
+
+#uw1vmmsws002u-10.251.149.32 ansible_host=10.251.149.32 ansible_port=22 ansible_connection=ssh ansible_user=azureadmin ansible_ssh_private_key_file=~/.ssh/azureadmin
+#uw1vmmsws003p-10.251.130.77 ansible_host=10.251.130.77 ansible_port=22 ansible_connection=ssh ansible_user=azureadmin ansible_ssh_private_key_file=~/.ssh/azureadmin
+#uw1vmmsws003q-10.251.164.41 ansible_host=10.251.164.41 ansible_port=22 ansible_connection=ssh ansible_user=azureadmin ansible_ssh_private_key_file=~/.ssh/azureadmin
+#uw1vmmsws003u-10.251.149.33 ansible_host=10.251.149.33 ansible_port=22 ansible_connection=ssh ansible_user=azureadmin ansible_ssh_private_key_file=~/.ssh/azureadmin
+#uw1vmmsws004p-10.251.130.78 ansible_host=10.251.130.78 ansible_port=22 ansible_connection=ssh ansible_user=azureadmin ansible_ssh_private_key_file=~/.ssh/azureadmin
+#uw1vmmsws005p-10.251.130.79 ansible_host=10.251.130.79 ansible_port=22 ansible_connection=ssh ansible_user=azureadmin ansible_ssh_private_key_file=~/.ssh/azureadmin
+uw1vmprap001q-10.251.164.25 ansible_host=10.251.164.25 ansible_port=22 ansible_connection=ssh ansible_user=azureadmin ansible_ssh_private_key_file=~/.ssh/azureadmin
+uw1vmprap002q-10.251.164.26 ansible_host=10.251.164.26 ansible_port=22 ansible_connection=ssh ansible_user=azureadmin ansible_ssh_private_key_file=~/.ssh/azureadmin
+uw1vmpiap001q-10.251.164.29 ansible_host=10.251.164.29 ansible_port=22 ansible_connection=ssh ansible_user=azureadmin ansible_ssh_private_key_file=~/.ssh/azureadmin
+
+[user_add]
+
+uw1vmprap001q-10.248.130.18 ansible_host=10.248.130.18 ansible_port=22 ansible_connection=ssh ansible_user=azureadmin ansible_ssh_private_key_file=~/.ssh/azureadmin
+uw1vmprap001q-10.248.130.19 ansible_host=10.248.130.19 ansible_port=22 ansible_connection=ssh ansible_user=azureadmin ansible_ssh_private_key_file=~/.ssh/azureadmin
+uw1vmprap001q-10.248.130.20 ansible_host=10.248.130.20 ansible_port=22 ansible_connection=ssh ansible_user=azureadmin ansible_ssh_private_key_file=~/.ssh/azureadmin
+uw1vmprap001q-10.251.130.10 ansible_host=10.251.130.10 ansible_port=22 ansible_connection=ssh ansible_user=azureadmin ansible_ssh_private_key_file=~/.ssh/azureadmin
+uw1vmprap001q-10.249.130.20 ansible_host=10.249.130.20 ansible_port=22 ansible_connection=ssh ansible_user=azureadmin ansible_ssh_private_key_file=~/.ssh/azureadmin
+uw1vmprap001q-10.249.130.19 ansible_host=10.249.130.19 ansible_port=22 ansible_connection=ssh ansible_user=azureadmin ansible_ssh_private_key_file=~/.ssh/azureadmin
+uw1vmprap001q-10.249.130.18 ansible_host=10.249.130.18 ansible_port=22 ansible_connection=ssh ansible_user=azureadmin ansible_ssh_private_key_file=~/.ssh/azureadmin
+uw1vmprap001q-10.251.149.27 ansible_host=10.251.149.27 ansible_port=22 ansible_connection=ssh ansible_user=azureadmin ansible_ssh_private_key_file=~/.ssh/azureadmin
+uw1vmprap001q-10.251.149.25 ansible_host=10.251.149.25 ansible_port=22 ansible_connection=ssh ansible_user=azureadmin ansible_ssh_private_key_file=~/.ssh/azureadmin
+uw1vmprap001q-10.251.149.26 ansible_host=10.251.149.26 ansible_port=22 ansible_connection=ssh ansible_user=azureadmin ansible_ssh_private_key_file=~/.ssh/azureadmin
+
+[user_add_prap]
+uw1vmprap001p-10.248.130.18 ansible_host=10.248.130.18 ansible_port=22 ansible_connection=ssh ansible_user=azureadmin ansible_ssh_private_key_file=~/.ssh/azureadmin
+uw1vmprap002p-10.248.130.19 ansible_host=10.248.130.19 ansible_port=22 ansible_connection=ssh ansible_user=azureadmin ansible_ssh_private_key_file=~/.ssh/azureadmin
+uw1vmprap003p-10.248.130.20 ansible_host=10.248.130.20 ansible_port=22 ansible_connection=ssh ansible_user=azureadmin ansible_ssh_private_key_file=~/.ssh/azureadmin
+
+
+[user_ftp]
+ndfwrsl002Y23.253.252.197 ansible_host=23..253.252.197 ansible_port=22 ansible_connection=ssh ansible_user=azureadmin ansible_ssh_private_key_file=~/.ssh/azureadmin
+
+
+[user_ryan]
+uw1vmprap001p-10.251.130.72 ansible_host=10.251.130.72 ansible_port=22 ansible_connection=ssh ansible_user=azureadmin ansible_ssh_private_key_file=~/.ssh/azureadmin
+uw1vmprap001p-10.251.130.73 ansible_host=10.251.130.73 ansible_port=22 ansible_connection=ssh ansible_user=azureadmin ansible_ssh_private_key_file=~/.ssh/azureadmin
+uw1vmprap001p-10.251.130.74 ansible_host=10.251.130.74 ansible_port=22 ansible_connection=ssh ansible_user=azureadmin ansible_ssh_private_key_file=~/.ssh/azureadmin
+uw1vmprap001-10.251.130.75  ansible_host=10.251.130.75 ansible_port=22 ansible_connection=ssh ansible_user=azureadmin ansible_ssh_private_key_file=~/.ssh/azureadmin
+
+
+10.251.164.52 ansible_host=10.251.164.52 ansible_port=22 ansible_connection=ssh ansible_user=azureadmin ansible_ssh_private_key_file=~/.ssh/azureadmin
+10.251.164.53 ansible_host=10.251.164.53 ansible_port=22 ansible_connection=ssh ansible_user=azureadmin ansible_ssh_private_key_file=~/.ssh/azureadmin
+10.251.164.54 ansible_host=10.251.164.54 ansible_port=22 ansible_connection=ssh ansible_user=azureadmin ansible_ssh_private_key_file=~/.ssh/azureadmin
+
+
+
+[test]
+#10.251.172.48  ansible_host=10.251.172.48  ansible_port=22 ansible_connection=ssh ansible_user=azureadmin ansible_ssh_private_key_file=~/.ssh/azureadmin
+
+10.251.172.48  ansible_host=10.251.172.48  ansible_port=22 ansible_connection=ssh 
+
