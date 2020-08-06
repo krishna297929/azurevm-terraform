@@ -1,5 +1,5 @@
 # Createing Azure Infrasture & VM with Terraform 
 
-# Once we provide Azure resources in Azure portal 
+# Once we provide Azure resources in Azure portal & Perfom hardening 
 
-# Terraform + Ansible connectivy via scripts 
+# Terraform + Ansible connectivity and Configure built VM 
