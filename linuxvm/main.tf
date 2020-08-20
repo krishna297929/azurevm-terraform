@@ -6,7 +6,10 @@ data "azurerm_resource_group" "test" {
 }
 
 
-# refer to a subnet
+# refer to a 
+
+
+
 data "azurerm_subnet" "test" {
   name                 = "${var.subnet}"
   virtual_network_name = "${var.virtual_network}"
